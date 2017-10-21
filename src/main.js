@@ -11,7 +11,17 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 Vue.config.productionTip = false
 
+let originalVueComponent = Vue.component
+Vue.component = function (name, definition) {
+  if (name === 'bFormCheckboxGroup' || name === 'bCheckboxGroup' ||
+      name === 'bCheckGroup' || name === 'bFormRadioGroup') {
+    definition.components = {bFormCheckbox: definition.components[0]}
+  }
+  originalVueComponent.apply(this, [name, definition])
+}
+
 Vue.use(BootstrapVue)
+Vue.component = originalVueComponent
 
 /* eslint-disable no-new */
 new Vue({
