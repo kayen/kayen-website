@@ -43,13 +43,9 @@ module.exports = {
         options: vueLoaderConfig
       },
       {
-        test: /\.(html)$/,
-        use: {
-          loader: 'html-loader',
-          options: {
-            attrs: [':data-src']
-          }
-        }
+        test: /\.html$/,
+        loader: 'html-loader',
+        include: [resolve('src/views')]
       },
       {
         test: /\.js$/,
