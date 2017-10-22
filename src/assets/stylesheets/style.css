@@ -27,21 +27,21 @@ Tags: app landing, morki, template, bootstrap
 	2.13 - Download App /.download-app
 	2.14 - Change Log /.change-log
 	2.15 - FAQs /.faqs
-	2.16 - Video /.video-featured 
+	2.16 - Video /.video-featured
 	2.17 - Blog /.blog
 	2.18 - Clients Logo /.clients-logo
 	2.19 - Contact /.contact
 	2.20 - Footer
-	
+
 3.  Index 02
 	3.1 - Intro /.intro-style2
 	3.2 - Services /.service-style2
 	3.3 - About App /.about-app2
 	3.4 - Price Table /.Price-table2
-	
+
 4.  Index 03
 	4.1 - Intro /.intro-style3
-	
+
 5.	Page Header
 6.	Blog Page
 7.	Blog details
@@ -56,7 +56,7 @@ Tags: app landing, morki, template, bootstrap
 ------------------------------------------------------------------- */
 
 /* ==========================
-	General Styles 
+	General Styles
 =========================== */
 html {
     color: #222;
@@ -246,7 +246,6 @@ figure {
     margin-right: -100px
 }
 
-
 /* ==================================================
 	Index 01
 =================================================== */
@@ -388,25 +387,12 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: #323232;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Intro */
 .intro {
     min-height: 780px;
     padding: 50px 0 0 0;
     position: relative;
-    background: url(../images/intro-bg.jpg);
+    /*background: url(../images/intro-bg.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -491,7 +477,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
         transform: translateY(-50%);
 }
 
-
 /* Services */
 .services {
     padding: 120px 0;
@@ -543,7 +528,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: #ef494d;
 }
 
-
 /* Section Header */
 .section-header {
     margin-bottom: 60px;
@@ -564,7 +548,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     bottom: 0;
     margin-left: -25px;
 }
-
 
 /* About App */
 .about-app {
@@ -604,7 +587,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     top: 0;
     color: #ef494d;
 }
-
 
 /* App Features */
 .app-features {
@@ -723,12 +705,11 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     background: #ef494d;
 }
 
-
 /* Newsletter */
 .newsletter {
     padding: 100px 0;
     text-align: center;
-    background: url(../images/intro-bg.jpg);
+    /*background: url(../images/intro-bg.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -776,7 +757,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     position: absolute;
     color: #ef494d;
 }
-
 
 /* Screenshot */
 .screenshots {
@@ -900,7 +880,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     transition: 0.3s ease;
 }
 
-
 /* Counters */
 .counters {
     padding: 100px 0;
@@ -955,7 +934,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin: 15px 0 0 0;
     font-size: 18px;
 }
-
 
 /* Price Table */
 .price-table {
@@ -1031,7 +1009,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     color: #fff;
     background: #ef494d;
 }
-
 
 /* Testimonial */
 .testimonial {
@@ -1115,7 +1092,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     background: #ef494d;
     transition: 0.3s ease;
 }
-
 
 /* Team */
 .team {
@@ -1229,12 +1205,11 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     transition: 0.3s ease;
 }
 
-
 /* Download App */
 .download-app {
     padding: 120px 0;
     text-align: center;
-    background: url(../images/intro-bg.jpg);
+    /*background: url(../images/intro-bg.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1273,8 +1248,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
 .download-app ul li:last-child {
     margin-right: 0;
 }
-
-
 
 /* Changle Log */
 .change-log {
@@ -1335,7 +1308,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     padding-top: 10px;
 }
 
-
 /* FAQs */
 .faqs {
     padding: 120px 0;
@@ -1374,12 +1346,11 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     margin-bottom: 0;
 }
 
-
 /* Video */
 .video-featured {
     padding: 150px 0;
     text-align: center;
-    background: url(../images/video-bg.png);
+    /*background: url(../images/video-bg.png);*/
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1419,7 +1390,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     background: #333;
     color: #fff;
 }
-
 
 /* Blog */
 .blog {
@@ -1495,7 +1465,6 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     background: #333;
 }
 
-
 /* Client Logo */
 .clients-logo {
     padding: 100px 0;
@@ -1508,11 +1477,10 @@ header .is-sticky nav.navbar .navbar-morki ul.nav li.active ul li a {
     display: inline;
 }
 
-
 /* Contact */
 .contact {
     padding: 120px 0;
-    background: url(../images/footer-bg.jpg);
+    /*background: url(../images/footer-bg.jpg);*/
     position: relative;
     background-position: center;
     background-size: cover;
@@ -1728,7 +1696,6 @@ footer p#back-top a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
 /* ==================================================
 	Index 03
 =================================================== */
@@ -1739,13 +1706,12 @@ footer p#back-top a:hover {
     top: 60%;
 }
 
-
 /* ==================================================
 	Page Header
 =================================================== */
 .pages-header {
     position: relative;
-    background: url(../images/intro-bg.jpg);
+    /*background: url(../images/intro-bg.jpg);*/
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1824,7 +1790,6 @@ footer p#back-top a:hover {
 .pages-header .page-header-inner .page-header-content ul li.active {
     color: #ddd;
 }
-
 
 /* ==================================================
 	Blog Page
@@ -2050,7 +2015,6 @@ footer p#back-top a:hover {
     border-color: #ef494d;
 }
 
-
 /* ==================================================
 	Blog Details
 =================================================== */
@@ -2187,7 +2151,6 @@ footer p#back-top a:hover {
     color: #ef494d;
 }
 
-
 /* ==================================================
 	Team Page Style
 =================================================== */
@@ -2272,7 +2235,6 @@ footer p#back-top a:hover {
 .team-wrapper .team-single figure figcaption div ul li a:hover:before {
     background: #fff;
 }
-
 
 /* ==================================================
 	Contact Page Style
@@ -2389,7 +2351,6 @@ footer p#back-top a:hover {
     color: #ef494d;
 }
 
-
 /* ================================
 	Gallery Page Style
 ================================== */
@@ -2482,7 +2443,6 @@ footer p#back-top a:hover {
     background: #ef494d;
     color: #fff;
 }
-
 
 /* ================================
 	Shop Page Style
@@ -2595,7 +2555,6 @@ footer p#back-top a:hover {
     color: #fff;
 }
 
-
 /* ==================================================
 	Product Details
 =================================================== */
@@ -2651,7 +2610,6 @@ footer p#back-top a:hover {
 .shop-wrapper .related-products{
 	margin-bottom: 50px;
 }
-
 
 /* ==========================================================================
    Helper classes
