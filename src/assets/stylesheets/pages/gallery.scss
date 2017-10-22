@@ -1,0 +1,105 @@
+.gallery-wrapper {
+  padding: 120px 0;
+}
+
+.gallery-wrapper .portfolio-content figure {
+  position: relative;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.gallery-wrapper .portfolio-content figure img {
+  transition: 0.6s ease;
+}
+
+.gallery-wrapper .portfolio-content figure:hover img {
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.gallery-wrapper .portfolio-content figure:hover figcaption {
+  background: rgba(239, 73, 77, 0.9);
+  opacity: 1;
+  visibility: visible;
+  -ms-transform: scale(1);
+  transform: scale(1);
+  bottom: 0;
+  left: 0;
+}
+
+.gallery-wrapper .portfolio-content figure figcaption {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.6s ease;
+  -ms-transform: scale(0.2);
+  transform: scale(0.2);
+}
+
+.gallery-wrapper .portfolio-content figure figcaption div {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.gallery-wrapper .portfolio-content figure figcaption div p a {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.gallery-wrapper .portfolio-content figure figcaption div h3 {
+  margin: 0;
+}
+
+.gallery-wrapper .portfolio-content figure figcaption div h3 a {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.gallery-wrapper .portfolio-content figure figcaption div a:hover {
+  color: #323232;
+}
+
+.gallery-wrapper .gallery-pagination {
+  margin-top: 30px;
+}
+
+.gallery-wrapper .gallery-pagination ul {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  margin-bottom: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.gallery-wrapper .gallery-pagination ul li {
+  display: inline-block;
+}
+
+.gallery-wrapper .gallery-pagination ul li a {
+  background: none;
+  font-weight: 500;
+  display: block;
+  padding: 10px 15px;
+  color: #727272;
+}
+
+.gallery-wrapper .gallery-pagination ul li a:hover {
+  background: #ef494d;
+  color: #fff;
+}
+
+.gallery-wrapper .gallery-pagination ul li.active a {
+  background: #ef494d;
+  color: #fff;
+}

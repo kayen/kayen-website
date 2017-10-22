@@ -16,7 +16,6 @@ export default {
 }
 </script>
 
-<style src="./assets/stylesheets/style.css"></style>
-<style src="./assets/stylesheets/colors/red.css"></style>
-<style src="./assets/stylesheets/responsive.css"></style>
-<style src="../node_modules/font-awesome/css/font-awesome.min.css"></style>
+<style lang="scss">
+@import '~@/assets/stylesheets/style';
+</style>
