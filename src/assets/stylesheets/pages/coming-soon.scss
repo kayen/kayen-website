@@ -1,0 +1,68 @@
+.countdown-timer {
+  margin-top: 80px;
+}
+
+.countdown-timer #timer-wrapper .timer-body-block {
+  text-align: center;
+}
+
+.countdown-timer #timer-wrapper .timer-body-block .table-cell {
+  display: inline-block;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.countdown-timer #timer-wrapper .timer-body-block .table-cell:last-child {
+  margin-right: 0;
+}
+
+.countdown-timer #timer-wrapper .timer-body-block .table-cell .tab-val {
+  font-size: 35px;
+}
+
+.countdown-timer #timer-wrapper .timer-body-block .table-cell .tab-unit {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.get-notified {
+  padding-top: 80px;
+}
+
+.get-notified h3 {
+  color: #fff;
+  margin: 0;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+}
+
+.get-notified form {
+  margin: 40px auto 0 auto;
+  width: 500px;
+  position: relative;
+}
+
+.get-notified form input {
+  width: 100%;
+  border: 1px solid #fff;
+  background: none;
+  height: 45px;
+  padding: 0 115px 0 15px;
+  color: #fff;
+}
+
+.get-notified form button {
+  border: 1px solid #fff;
+  right: 0;
+  top: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #fff;
+  height: 45px;
+  padding: 0 10px;
+  position: absolute;
+  color: #ef494d;
+}
