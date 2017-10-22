@@ -1,0 +1,442 @@
+$primary_color: #ef494d;
+
+.intro::before {
+  background: rgba(239, 73, 77, 0.96);
+}
+
+header .is-sticky nav.navbar .navbar-morki ul.nav li.active a {
+  color: $primary_color;
+}
+
+header .is-sticky nav.navbar .navbar-morki ul.nav li.nav-download-btn a {
+  background: $primary_color;
+}
+
+
+header .is-sticky nav.navbar .navbar-morki ul.nav li a:hover {
+  color: $primary_color;
+}
+
+
+header nav.navbar .navbar-morki ul.nav li a:focus {
+  color: $primary_color;
+}
+
+
+.intro .intro-info .intro-info-content ul li:first-child a {
+  color: $primary_color;
+}
+
+.section-header h2::before {
+  background: $primary_color;
+}
+
+.services .service-box .icon {
+  border: 2px solid $primary_color;
+}
+
+.services .service-box:hover .icon {
+  background: $primary_color;
+  border-color: $primary_color;
+}
+
+.services .service-box .icon::after {
+  background: $primary_color;
+}
+
+.services .service-box:hover a {
+  color: $primary_color;
+}
+
+.about-app .app-info h2 span {
+  color: $primary_color;
+}
+
+.about-app .app-info ul li::before {
+  color: $primary_color;
+}
+
+.app-features .features-left .feature-single .feature-icon span {
+  color: $primary_color;
+}
+
+.app-features .features-left .feature-single:hover .feature-icon span::before {
+  background: $primary_color;
+}
+
+.app-features .features-right .feature-single .feature-icon span {
+  color: $primary_color;
+}
+
+.app-features .features-right .feature-single:hover .feature-icon span::before {
+  background: $primary_color;
+}
+
+.video-featured::before {
+  background: rgba(239, 73, 77, 0.95);
+}
+
+.video-featured a.video-btn span:first-child {
+  color: $primary_color;
+}
+
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::before,
+.screenshots .screenshot-gallery .screenshot-single figure figcaption a::after {
+  background: $primary_color;
+}
+
+.screenshots .gallery-info a {
+  background: $primary_color;
+}
+
+.screenshots .owl-dots .owl-dot span::before {
+  border: 2px solid $primary_color;
+}
+
+.screenshots .owl-dots .owl-dot.active span::before {
+  background: $primary_color;
+}
+
+.screenshots .owl-dots .owl-dot span {
+  border: 2px solid $primary_color;
+}
+
+.counters .counter-box div {
+  color: $primary_color;
+}
+
+.counters .counter-box:hover div::before {
+  background: $primary_color;
+  border-color: $primary_color;
+}
+
+.counters .counter-box span {
+  color: $primary_color;
+}
+
+.price-table .price-table-wrapper .price-header span.price {
+  color: $primary_color;
+}
+
+.price-table .price-table-wrapper .price-btn a {
+  border: 2px solid $primary_color;
+  color: $primary_color;
+}
+
+.price-table .price-table-wrapper:hover .price-btn a {
+  background: $primary_color;
+}
+
+.price-table .price-table-wrapper.price-table-featured::before {
+  background: $primary_color;
+}
+
+.price-table .price-table-wrapper.price-table-featured .price-btn a {
+  background: $primary_color;
+}
+
+.testimonial .testimonial-slider .slide-single .client-info ul li.client-image::before {
+  background: $primary_color;
+}
+
+.testimonial .owl-dots .owl-dot.active span::before {
+  background: $primary_color;
+}
+
+.testimonial .owl-dots .owl-dot span::before {
+  border: 2px solid $primary_color;
+}
+
+.testimonial .owl-dots .owl-dot span {
+  border: 2px solid $primary_color;
+}
+
+.team .team-carousel .team-single figure figcaption {
+  background: rgba(239, 73, 77, 0.9);
+}
+
+.team .team-carousel .team-single figure figcaption div ul li a:hover {
+  color: $primary_color;
+}
+
+.team .owl-dots .owl-dot.active span::before {
+  background: $primary_color;
+}
+
+.team .owl-dots .owl-dot span::before {
+  border: 2px solid $primary_color;
+}
+
+.team .owl-dots .owl-dot span {
+  border: 2px solid $primary_color;
+}
+
+.download-app::before {
+  background: rgba(239, 73, 77, 0.9);
+}
+
+.change-log .changelog-timeline::before {
+  background: $primary_color;
+}
+
+.change-log .changelog-timeline .timeline-single .icon {
+  color: $primary_color;
+}
+
+.faqs .faq-single .faq-icon span {
+  background: $primary_color;
+}
+
+.newsletter::before {
+  background: rgba(239, 73, 77, 0.95);
+}
+
+.newsletter form button {
+  color: $primary_color;
+}
+
+.blog .blog-single figure figcaption ul.post-meta {
+  background: rgba(239, 73, 77, 0.9);
+}
+
+.blog .blog-single:hover figure figcaption h3 a,
+.blog .blog-single:hover figure figcaption ul.post-bottom li a {
+  color: $primary_color;
+}
+
+.blog .blog-btn a {
+  background: $primary_color;
+}
+
+.contact::before {
+  background: rgba(239, 73, 77, 0.95);
+}
+
+.contact .contact-details ul.contact-social li a {
+  color: $primary_color;
+}
+
+.contact .contact-wrapper form .form-group button {
+  color: $primary_color;
+}
+
+footer p i {
+  color: $primary_color;
+}
+
+footer .footer-bottom-menu ul li a:hover {
+  color: $primary_color;
+}
+
+footer p#back-top a:hover {
+  background: $primary_color;
+  border-color: $primary_color;
+}
+
+#hill {
+  border-left: .25em solid $primary_color;
+}
+
+#box {
+  border: .25em solid $primary_color;
+}
+
+.about-app2::before {
+  background: $primary_color;
+}
+
+.about-app2 .app-info h2 span {
+  color: #333;
+}
+
+.about-app2 .app-info ul li::before {
+  color: #333;
+}
+
+.pages-header::before {
+  background: rgba(239, 73, 77, 0.95);
+}
+
+.blog-wrapper .blog-sidebar .sidebar-widget h3::before {
+  background: $primary_color;
+}
+
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form button {
+  background: $primary_color;
+  border: 1px solid $primary_color;
+}
+
+.blog-wrapper .blog-sidebar .sidebar-widget.search-widget form input:focus {
+  border-color: $primary_color;
+}
+
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li::before,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li::before {
+  background: $primary_color;
+}
+
+.blog-wrapper .blog-sidebar .sidebar-widget.recent-post ul li a:hover,
+.blog-wrapper .blog-sidebar .sidebar-widget.archieve-widget ul li a:hover {
+  color: $primary_color;
+}
+
+.post-details .article-meta ul li a {
+  color: $primary_color;
+}
+
+.post-details .article-content blockquote {
+  border: 4px double rgba(239, 73, 77, 0.4);
+}
+
+.blog-wrapper .blog-sidebar .sidebar-widget.tags-widget ul li a:hover {
+  border-color: $primary_color;
+  color: $primary_color;
+}
+
+.post-details .article-content ul.blog-post-pagination li a:hover {
+  color: $primary_color;
+}
+
+.post-details .post-comments ul.comment-list li .comment-details h3 {
+  color: $primary_color;
+}
+
+.post-details .post-comments ul.comment-list li .comment-details a:hover {
+  color: $primary_color;
+}
+
+.post-details .leave-comment form .form-group button {
+  background: $primary_color;
+  border: 2px solid $primary_color;
+}
+
+.post-details .leave-comment form .form-group button:hover {
+  color: $primary_color;
+}
+
+.blog-wrapper .blog-content .blog-single .blog-thumb figure figcaption {
+  background: rgba(239, 73, 77, 0.7);
+}
+
+.blog-wrapper .blog-content .blog-single .blog-single-contents h3 a:hover {
+  color: $primary_color;
+}
+
+.blog-wrapper .blog-content .blog-single .blog-single-contents ul li a:hover {
+  color: $primary_color;
+}
+
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn a {
+  background: $primary_color;
+  border-color: $primary_color;
+}
+
+.blog-wrapper .blog-content .blog-single:hover .blog-single-contents .rm-btn::before {
+  background: $primary_color;
+}
+
+.blog-wrapper .blog-content .blog-pagination ul li.active a {
+  background: $primary_color;
+  border-color: $primary_color;
+}
+
+.blog-wrapper .blog-content .blog-pagination ul li a:hover {
+  border-color: $primary_color;
+  color: $primary_color;
+}
+
+.get-notified form button {
+  color: $primary_color;
+}
+
+.contact-main .section-header h2::before {
+  background: $primary_color;
+}
+
+.contact-main .contact-wrapper form .form-group input:focus,
+.contact-main .contact-wrapper form .form-group textarea:focus {
+  border-color: $primary_color;
+}
+
+.contact .contact-wrapper form .form-group button {
+  color: $primary_color;
+}
+
+.contact-main .contact-details ul.contact-info-list li i {
+  color: $primary_color;
+}
+
+
+.gallery-wrapper .portfolio-content figure:hover figcaption {
+  background: rgba(239, 73, 77, 0.9);
+}
+
+.gallery-wrapper .gallery-pagination ul li.active a {
+  background: $primary_color;
+}
+
+.gallery-wrapper .gallery-pagination ul li a:hover {
+  background: $primary_color;
+}
+
+.shop-wrapper .single-product figure figcaption {
+  background: rgba(239, 73, 77, 0.9);
+}
+
+.shop-wrapper .single-product figure figcaption div a {
+  color: $primary_color;
+}
+
+.shop-wrapper .single-product .product-meta span {
+  color: $primary_color;
+}
+
+.shop-wrapper .single-product .product-meta h3 a:hover {
+  color: $primary_color;
+}
+
+.shop-wrapper .shop-pagination ul li.active a {
+  background: $primary_color;
+}
+
+.shop-wrapper .shop-pagination ul li a:hover {
+  background: $primary_color;
+}
+
+.product-details-container ul.product-rating li {
+  color: $primary_color;
+}
+
+.product-details-container .p-price p {
+  color: $primary_color;
+}
+
+.product-details-container ul.pd-btns li:first-child a {
+  background: $primary_color;
+}
+
+.product-details-container ul.pd-btns li:first-child a:hover {
+  color: $primary_color;
+}
+
+.product-details-container ul.pd-btns li a {
+  border: 1px solid $primary_color;
+  color: $primary_color;
+}
+
+.product-details-container ul.pd-btns li a:hover {
+  background: $primary_color;
+}
+
+.team-wrapper .team-single figure figcaption {
+  background: rgba(239, 73, 77, 0.9);
+}
+
+.team-wrapper .team-single figure figcaption div ul li a:hover {
+  color: $primary_color;
+}
+
+.contact-main .contact-wrapper form .form-group button {
+  color: #fff;
+  background: $primary_color;
+}

@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import 'owl.carousel/dist/assets/owl.carousel.css'
-
 import $ from 'jquery'
 
 import 'owl.carousel/dist/owl.carousel'
@@ -17,6 +15,8 @@ import 'bootstrap/dist/js/bootstrap'
 import '@/assets/js/custom'
 import '@/assets/js/plugins'
 
+import LandingPage from '@/components/pages/landing'
+
 window.Popper = Popper
 window.jQuery = window.$ = $
 
@@ -28,9 +28,7 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: {
-        template: require('@/views/home.html')
-      }
+      component: LandingPage
     }
   ]
 })

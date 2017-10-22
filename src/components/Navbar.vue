@@ -5,10 +5,12 @@
         <div class="row">
           <div class="col-sm-12">
             <div class="navbar-header">
-              <a class="navbar-brand" href="home-multipage.html">Kayen</a>
+              <a class="navbar-brand" href="/">
+                <img src="~@/assets/images/logo-Kayen-white.png" alt="kayen" height="50" class="img-responsive">
+              </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-morki">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+              <span class="navbar-toggler-icon"></span>
+              </button>
             </div>
             <div class="collapse navbar-collapse navbar-morki">
               <ul class="nav navbar-nav navbar-right">
