@@ -1,0 +1,23 @@
+# Check `docs/pipeline.md` to get info about this file
+
+resources:
+- name: kayen-website-repository
+  type: git
+  source:
+    uri: https://github.com/kayentech/kayen-website
+    branch: master
+
+- name: kayen-website-image
+  type: docker-image
+  source:
+    repository: gcr.io/helios-devel/kayen-website
+
+jobs:
+- name: build kayen-website image
+  serial: true
+  plan:
+  - get: kayen-website-repository
+    trigger: true
+  - put: kayen-website-image
+    params:
+      build: kayen-website-repository
